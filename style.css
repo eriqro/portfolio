@@ -1,0 +1,22 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: rgb(228, 228, 228);
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left,rgb(119, 195, 249) ,rgb(100, 100, 211));
+    height: 80px;
+    padding-inline: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary-navigation{
+    
+    display:flex;
+    list-style-type: none;
+    gap:2rem;
+    font-size:larges
+}

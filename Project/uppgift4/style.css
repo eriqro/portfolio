@@ -1,0 +1,34 @@
+.header{
+  text-align: center;
+  border:5px inset gray;
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+div.ruta{
+  display:flex;
+  justify-content: center;
+}
+.ruta1 {
+  width: 600px;
+  height: 400px;
+  background: gray;
+  transition: background-color 1s ease-in 100ms;
+}
+
+.ruta1:hover {
+  background-color:lightblue;
+  
+}
+.ruta2{
+  width: 600px;
+  height: 400px;
+  background: black;
+  transition: background-color 1s ease-in 100ms;
+}
+.ruta2:hover{
+  background-color: cyan;
+}
+div.video{
+  display: flex;
+  justify-content: center;
+}
